@@ -7,7 +7,7 @@
 - [Modern B-Tree Techniques](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.219.7269&rep=rep1&type=pdf)
 
 ## Many core
-- [Staring into the Abyss: An Evaluation of Concurrency Control with One Thousand Cores](http://www.vldb.org/pvldb/vol8/p209-yu.pdf)
+- [Staring into the Abyss: An Evaluation of Concurrency Control with One Thousand Cores](http://www.vldb.org/pvldb/vol8/p209-yu.pdf) [(notes)](notes/abyss.md)
 
 ## Resources
 - [Redbook 5th Edition](http://www.redbook.io/)
