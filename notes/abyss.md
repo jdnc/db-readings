@@ -1,5 +1,5 @@
 # Summary
-- Demonstrates the main issues with scaling existing concurrency control algorithms on many core chips. (Experiments with 2PL and T/O, OLTP case).
+- Demonstrates the main issues with scaling existing concurrency control algorithms on many core chips. (Experiments with 2PL and T/O, OLTP case). 
 - Proposes that some issues (timestamp generation / memory copies) require better support from hardware. 
 
 # Cool implementation technique(s)
