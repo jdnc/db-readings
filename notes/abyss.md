@@ -1,5 +1,6 @@
 # Summary
-- Can current concurrency control algorithms be linearly scalable on many core chips? (Experiments with 2PL and T/O).
+- Demonstrates the main issues with scaling existing concurrency control algorithms on many core chips. (Experiments with 2PL and T/O, OLTP case).
+- Proposes that some issues (timestamp generation / memory copies) require better support from hardware. 
 
 # Cool implementation technique(s)
 - for any contentious datastructure first line of attack should be to partition it in a way that seeks to minimize the contention. (Even better if with the partitioning you can totally eliminate the cause of contention , e.g mutex => lockfree)
@@ -12,3 +13,4 @@
 
 # Extensions
 - Doesn't explore multi-socket systems at all: but they may be more ubiquitous + more challenging due to cross socket L3 cache contentions, etc
+- Needs to concretely evaluate switching between multiple concurrency schemes: how easy is it to train the system to do this dynamically and what are the perf gains.
