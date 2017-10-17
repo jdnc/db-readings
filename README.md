@@ -11,7 +11,7 @@
 - [Staring into the Abyss: An Evaluation of Concurrency Control with One Thousand Cores](http://www.vldb.org/pvldb/vol8/p209-yu.pdf) [(&#x1F4D9;  notes)](notes/abyss.md)
 
 ## In-memory 
--[OLTP Through the Looking Glass, and What We Found There](https://cs.brown.edu/courses/csci2270/archives/2012/papers/mainmemory/hstore-lookingglass.pdf)
+- [OLTP Through the Looking Glass, and What We Found There](https://cs.brown.edu/courses/csci2270/archives/2012/papers/mainmemory/hstore-lookingglass.pdf)
 
 ## Resources
 - [Redbook 5th Edition](http://www.redbook.io/)
